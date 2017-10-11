@@ -13,10 +13,10 @@ io.on('connection', function(socket){
   });
 });
 
-// http.listen(port, function(){
-//   console.log('listening on *:' + port);
-// });
+http.listen(port, function(){
+  console.log('listening on *:' + port);
+});
 
 
-app.set( "ipaddr", "127.0.0.1" );
-app.set( "port", 8080 );
+// app.set( "ipaddr", "192.168.0.129" );
+// app.set( "port", 3000 );
